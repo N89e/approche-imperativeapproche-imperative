@@ -2,7 +2,7 @@ package fr.tableaux;
 
 import java.util.Arrays;
 
-public class ExerciceTTableauChaines {
+public class ExerciceTableauChaines {
     public static void main(String[] args) {
         String[] tableauString = {"Paris", "Porto", "Monaco", "Nantes", "Marseille"};
         for (String s : tableauString) {
