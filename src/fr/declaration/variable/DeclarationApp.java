@@ -18,7 +18,9 @@ public class DeclarationApp {
         System.out.println("int :" + d);
         System.out.println("long :" + e);
         System.out.println("float :" + f);
-        System.out.println("double :" + b);
+        System.out.println("double :" + g);
+        System.out.println("char :" + h);
+        System.out.println("boolean :" + i);
         String randomString = "Voici le résultat d’un calcul : 1+5=6";
         System.out.println(randomString);
     }
