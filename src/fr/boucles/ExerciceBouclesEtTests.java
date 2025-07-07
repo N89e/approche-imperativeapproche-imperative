@@ -48,6 +48,7 @@ public class ExerciceBouclesEtTests {
         // 6. Afficher uniquement les entiers impairs
         System.out.println("Entiers impairs :");
         for (int i = array.length - 1; i >= 0; i--) {
+            //!=0 est plus robuste que ==1 (car s'il y a des chiffres négatif le ==1 ne prendre pas en compte
             if (array[i] % 2 != 0) {
                 System.out.print(array[i] + " ");
             }
